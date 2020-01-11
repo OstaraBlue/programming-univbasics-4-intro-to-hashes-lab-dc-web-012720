@@ -3,23 +3,24 @@ def new_hash
 end
 
 def my_hash
- 
+ {:name => "Melody"}
 end
 
 def pioneer
-  
+  pioneer = {:name => "Grace Hopper"}
 end
 
 def id_generator
-  
+  {:id => 9}
 end
 
 def my_hash_creator(key, value)
-  
+  hash = {key => value}
 end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
+  hash[key]
 end
 
 def update_counting_hash(hash, key)
